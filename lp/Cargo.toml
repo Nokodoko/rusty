@@ -1,0 +1,12 @@
+[package]
+name = "lp"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+color-eyre = "0.6.2"
+dotenv = "0.15.0"
+serde = { version = "1.0.159", features = ["derive"] }
+tokio = "1.27.0"
